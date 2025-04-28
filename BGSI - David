@@ -57,7 +57,7 @@ G2L["5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]]
 G2L["5"]["Size"] = UDim2.new(0, 75, 0, 50);
 G2L["5"]["Name"] = [[Auto Sell]];
 G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5"]["Text"] = [[✅]];
+G2L["5"]["Text"] = [[❌]];
 G2L["5"]["Position"] = UDim2.new(0.74307, 0, 0.5901, 0);
 
 
@@ -66,7 +66,7 @@ G2L["6"] = Instance.new("LocalScript", G2L["5"]);
 
 
 
--- StarterGui.BGSI Script - David.Frame.TextButton
+-- StarterGui.BGSI Script - David.Frame.Auto Bubble
 G2L["7"] = Instance.new("TextButton", G2L["2"]);
 G2L["7"]["TextWrapped"] = true;
 G2L["7"]["BorderSizePixel"] = 0;
@@ -76,12 +76,13 @@ G2L["7"]["TextScaled"] = true;
 G2L["7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["7"]["Size"] = UDim2.new(0, 78, 0, 50);
+G2L["7"]["Name"] = [[Auto Bubble]];
 G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7"]["Text"] = [[✅]];
+G2L["7"]["Text"] = [[❌]];
 G2L["7"]["Position"] = UDim2.new(0.74056, 0, 0.24328, 0);
 
 
--- StarterGui.BGSI Script - David.Frame.TextButton.LocalScript
+-- StarterGui.BGSI Script - David.Frame.Auto Bubble.LocalScript
 G2L["8"] = Instance.new("LocalScript", G2L["7"]);
 
 
@@ -251,7 +252,7 @@ local script = G2L["6"];
 	
 end;
 task.spawn(C_6);
--- StarterGui.BGSI Script - David.Frame.TextButton.LocalScript
+-- StarterGui.BGSI Script - David.Frame.Auto Bubble.LocalScript
 local function C_8()
 local script = G2L["8"];
 	local button = script.Parent
